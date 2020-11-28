@@ -22,7 +22,7 @@ public class Boss
     }
     public void Magic()
     {
-        if(mp > 5)
+        if(mp >= 5)//MPが５以上の時
         {
             mp -= 5;
             Debug.Log("魔法攻撃をした。残りMPは" + mp + "。");
